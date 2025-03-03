@@ -1,0 +1,17 @@
+<div class="search">
+    <img src="https://i.imgur.com/yqwW26Z.png" width="100px" alt=""  class="image1">
+    <div class="cont1">
+    <input type="text" #search1 placeholder="Enter video name" class="input">
+    <button (click)="search(search1.value)" class="button2">search</button>
+    </div>
+</div>
+<br>
+<div class="videos">
+<div *ngFor="let i of this.videos.videolist.items" >
+    <div class="container" *ngIf="i.snippet.title==this.value || this.value==''" >
+    <img src={{i.snippet.thumbnails.high.url}} alt="" *ngIf="i.snippet.title==this.value || this.value==''" width="100%">
+    <button *ngIf="i.snippet.title==this.value || this.value==''" (click)="gotovideo(i)" class="button1">{{i.snippet.title}}</button>
+    </div>
+    <br>  
+</div>
+</div>

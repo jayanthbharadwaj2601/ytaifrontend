@@ -1,0 +1,47 @@
+.input
+{
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 2px 2px 2px black;
+    padding: 4px 4px;
+    width: 80%;
+}
+/* You can add global styles to this file, and also import other style files */
+
+.container
+{ align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+    padding: 5px 5px;
+    background-image: linear-gradient(to right,rgb(37, 37, 37),rgb(0, 0, 0));
+    border-radius: 10px 10px;
+    box-shadow: 5px 5px 5px black;
+    position: relative;
+    left: 30%;
+    top: 100px;
+}
+.container1
+{
+    align-items: center;
+    color: black;
+    background-image: linear-gradient(to right,rgb(190, 231, 255),rgb(190, 237, 237));
+    padding: 5% 5%;
+    /* box-shadow: 10px 10px 10px rgb(68, 62, 62); */
+    border-radius: 10px;
+    font-weight: bold;
+    border-style: none;
+    width: 80%;
+}
+.button1
+{
+    padding: 4%;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px black;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(to right,red,rgb(138, 2, 2));
+    border-style:none;
+}

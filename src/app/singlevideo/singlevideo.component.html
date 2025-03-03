@@ -1,0 +1,14 @@
+<div class="container1">
+<img src={{video.video.snippet.thumbnails.high.url}} alt="" class="image1">
+<p>{{video.video.snippet.title}}</p>
+<div class="container2" align="center">
+<button #summary class="button1" (click)="generate_image('Summary',video.video.contentDetails.upload.videoId)">Summarize comments</button>
+<button class="button1" (click)="generate_image('S ',video.video.contentDetails.upload.videoId)">Generate ideas</button>
+<button class="button1" (click)="imageinfo()">Generate thumbnails</button>
+</div>
+<br>
+<div class="container3">
+<img src={{this.src}} *ngIf="this.src!=''" class="image1">
+<p>{{this.resp1}}</p>
+</div>
+</div>

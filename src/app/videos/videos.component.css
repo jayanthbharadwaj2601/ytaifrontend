@@ -1,0 +1,80 @@
+.container
+{ align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    padding: 5px 5px;
+    background-image: linear-gradient(to right,rgb(37, 37, 37),rgb(0, 0, 0));
+    border-radius: 10px 10px;
+    box-shadow: 5px 5px 5px black;
+    
+}
+.search
+{
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    background-image: linear-gradient(to right,rgb(37, 37, 37),rgb(0, 0, 0));
+    border-radius: 10px 10px;
+    width: 100%;
+}
+.cont1
+{
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    top: 33px;
+}
+.videos
+{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to left, rgb(0, 44, 71),rgb(17, 76, 94));
+    padding: 5%;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(241, 73, 73);
+    align-items: center;
+}
+.button1
+{
+    padding: 4%;
+    border-radius: 10px;
+    /* text-shadow: 2px 2px 2px black; */
+    font-weight:300;
+    color: black;
+    width: 100%;
+    background-image: linear-gradient(to right,rgb(252, 106, 106),rgb(255, 82, 82));
+    border-style:none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button2
+{
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px black;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(to right,red,rgb(138, 2, 2));
+    width: 30%;
+    height: 40%;
+    border-style:none;
+    font-size: 100%;
+}
+.input
+{
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 2px 2px 2px black;
+    padding: 5px 5px;
+    width: 60%;
+    height: 30%;
+
+}
