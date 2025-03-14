@@ -1,27 +1,20 @@
-# Imageai
+<img width="889" alt="landing" src="https://github.com/user-attachments/assets/8bd32cd8-c8e4-450d-ba9f-7c688f81fca6" />
+<br>
+<img width="908" alt="Channelvideos" src="https://github.com/user-attachments/assets/e931c5f5-309d-43e5-b748-6bf400eefd18" />
+<br>
+<img width="923" alt="video" src="https://github.com/user-attachments/assets/21533dca-58bf-4a8b-be6e-31352e7cb137" />
+<br>
+<img width="559" alt="thumbsc" src="https://github.com/user-attachments/assets/4a163add-71f8-42bb-8ba4-d41667802482" />
+<br>
+<img width="508" alt="tumbsc 2" src="https://github.com/user-attachments/assets/5cfbdd55-345a-4b29-a423-e899bcddd57e" />
+<br>
+<img width="908" alt="Ideas" src="https://github.com/user-attachments/assets/4f06ae6d-20f8-46a7-8075-ce7ebc7f92eb" />
+<br>
+<img width="537" alt="comments" src="https://github.com/user-attachments/assets/c33b773d-711b-445b-abbd-b5cddcb4408e" />
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.9.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
